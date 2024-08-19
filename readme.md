@@ -7,6 +7,8 @@ These palettes can be used in the context of plots, and generally improve their 
 The colours are generated such that they are visible on a white background, 
 and each colour is generated so that it is not too close to any of the others in the set.
 
+A class hierarchy has been established for the sole purpose of making it an exercise. 
+
 ## Content
 
 This version contains only a basic generator, available in the `basic_generator` folder
