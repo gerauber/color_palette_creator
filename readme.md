@@ -9,6 +9,10 @@ and each colour is generated so that it is not too close to any of the others in
 
 A class hierarchy has been established for the sole purpose of making it an exercise. 
 
+This code follows the style convention established in the [PEP8 document](https://peps.python.org/pep-0008/).
+
+Version 1.0.3
+
 ## Content
 
 This version contains only a basic generator, available in the `basic_generator` folder
@@ -22,6 +26,4 @@ The principle is the following:
 	* if required, generate as many times as you want another plot (all colour codes are printed on the terminal)
 	* if you are satisfied with the colours, save the codes in a `.txt` file, and save the figure in a `.pdf` file
 
-## Good practices
 
-This code follows the style convention established in the [PEP8 document](https://peps.python.org/pep-0008/).
