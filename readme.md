@@ -14,7 +14,7 @@ A class hierarchy has been established for the sole purpose of making it an exer
 
 This code follows the style convention established in the [PEP8 document](https://peps.python.org/pep-0008/).
 
-Version 1.0.3
+Version 1.0.4
 
 ## Content
 
