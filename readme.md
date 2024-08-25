@@ -2,6 +2,9 @@
 
 ## General comments
 
+When a lot of data needs to be presented on a plot, it's generally advisable to 
+change the way the data is presented. But if this is not possible, 
+it's best to use clearly distinguishable colors. That's why this tool was created:
 `color_palette_creator` is a tool that is used to generate a random palette of colours. 
 These palettes can be used in the context of plots, and generally improve their readability.
 The colours are generated such that they are visible on a white background, 
