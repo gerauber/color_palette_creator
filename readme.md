@@ -24,7 +24,7 @@ color map generator, stored in `cmap_generator`.
 
 ### Basic Generator
 
-The principle is the following: 
+The principle of the scripts contained in `basic_generator` is the following: 
 * run `python main.py`
 * specify the number of colours that you would like to generate
 * obtain a plot to see the colours
@@ -48,8 +48,8 @@ The principle is the following:
 
 ### Cmap Generator
 
-Here, color maps can be generated, and used in any plot. The `main.py` script 
-will contain already some examples of initialization of functions, so that
+Colour maps can be generated in `cmap_generator`, and used in any plot. 
+The `main.py` script contains already some examples of initialization of functions, so that
 the user can copy the example and create their own colour map. 
 
 ##### Colour maps
