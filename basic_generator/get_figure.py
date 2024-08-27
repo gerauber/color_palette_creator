@@ -17,10 +17,10 @@ class Figures:
     def get_plot(self, colours: Colours):
         v = colours.number
         cols = colours.list_cols_rgba
-        ## compute the width of the figure, and the text
+        # Compute the width of the figure, and the text
         wid = 8 + int(v/5) * 8
         text_size = 12 - int(v/5)
-        ## figure
+        # Figure
         figs = plt.figure(figsize=(wid, 6))
         ax = figs.add_subplot(111)
         currentAxis = plt.gca()
@@ -36,9 +36,9 @@ class Figures:
                      f'RGBA: {col}\nhex: {hexcolour}',
                      backgroundcolor='white', ha='center', va='center',
                      size=text_size, rotation='vertical')
-        # set limits
+        # Set limits
         ax.set_xlim([x1, xa + xlen])
-        # hide axes
+        # Hide axes
         ax.get_xaxis().set_visible(False)
         ax.get_yaxis().set_visible(False)
         self.fig = figs
@@ -78,9 +78,9 @@ class Figures:
         print(f"File path: {choice_path}\nFile name: {choice_name}")
         choice_path_name = input("(y/n): ")
         if choice_path_name != 'y' and choice_path_name != 'n':
-                while choice_path_name != 'y' and choice_path_name != 'n':
-                    choice_path_name = input("Please enter either \
-                                              'y' or 'n': ")
+            while choice_path_name != 'y' and choice_path_name != 'n':
+                choice_path_name = input("Please enter either \
+                                          'y' or 'n': ")
         if choice_path_name == 'n':
             self.quest_path_name_corr()
         if choice_path_name == 'y':
@@ -96,9 +96,9 @@ class Figures:
                        name for the figure as for the colours?")
                 choice_same = input("(y/n): ")
                 if choice_same != 'y' and choice_same != 'n':
-                        while choice_same != 'y' and choice_same != 'n':
-                            choice_same = input("Please enter either \
-                                                 'y' or 'n': ")
+                    while choice_same != 'y' and choice_same != 'n':
+                        choice_same = input("Please enter either \
+                                             'y' or 'n': ")
                 if choice_same == 'y':
                     self.save_fig(choice_path, choice_name)
                 if choice_same == 'n':

@@ -26,8 +26,8 @@ def main():
         print("Another try?")
         ans = input("(y/n): ")
         if ans != 'y' and ans != 'n':
-                while ans != 'y' and ans != 'n':
-                    ans = input("Please enter either 'y' or 'n': ")
+            while ans != 'y' and ans != 'n':
+                ans = input("Please enter either 'y' or 'n': ")
         cont = (ans == 'y')
 
     # save colours
@@ -35,6 +35,7 @@ def main():
 
     # save figures
     fi.print_question(choice_path, choice_name)
+
 
 if __name__ == "__main__":
     main()
