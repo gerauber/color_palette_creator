@@ -1,0 +1,18 @@
+[project]
+name = "color_palette_creator"
+version = "2.0.1"
+authors = [
+  { name="Geraldine Rauber", email="geraldinerauber@gmail.com" },
+]
+description = "A package to easily create colour palettes"
+readme = "readme.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/gerauber/color_palette_creator"
+Issues = "https://github.com/gerauber/color_palette_creator/issues"
